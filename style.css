@@ -44,8 +44,8 @@ footer small {
 }
 
 .product-review-box {
-  border: 1px solid #f2f2f2; /* Gray almost white border */
-  padding: 20px; /* Add some padding for better spacing */
-  margin: 10px auto; /* Add some margin for better positioning */
-  border-radius: 5px; /* Add a slight border radius for a softer look */
+  border: 1px solid #f2f2f2; 
+  padding: 20px; 
+  margin: 20px; /* Add 20px margin on all sides */
+  border-radius: 5px; 
 }
