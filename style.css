@@ -1,11 +1,15 @@
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Ensure the body takes up the full viewport height */
+  min-height: 100vh; 
   margin: 0;
   padding: 0;
   font-family: sans-serif;
   background-color: white;
+}
+
+main { /* Wrap your main content within a <main> tag */
+  flex-grow: 1; /* Allow the main content to grow and fill the space */
 }
 
 h1 {
@@ -15,15 +19,12 @@ h1 {
 
 p {
   text-align: center;
-  flex-grow: 1; /* Allow content to grow and push footer down */
 }
 
 footer {
-  position: absolute; /* Use absolute positioning for better control */
-  bottom: 0;
-  right: 0; 
-  padding: 10px; 
+  margin-top: auto; /* This is the key! */
   background-color: #f2f2f2;
+  padding: 10px;
 }
 
 footer small {
