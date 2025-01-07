@@ -2,7 +2,10 @@ body {
   background-color: white;
   margin: 0;
   padding: 0;
-  font-family: sans-serif; /* Change this to your preferred font family */
+  font-family: sans-serif;
+  display: flex; /* Use flexbox for easier layout */
+  flex-direction: column; /* Set the main axis to vertical */
+  min-height: 100vh; /* Make the body take up the full viewport height */
 }
 
 h1 {
@@ -12,20 +15,18 @@ h1 {
 
 p {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: auto; /* Add margin-bottom: auto to push content up */
 }
 
 footer {
-  text-align: center;
+  display: flex; /* Use flexbox for footer layout */
+  justify-content: flex-end; /* Align content to the right */
+  align-items: flex-end; /* Align content to the bottom */
   padding: 10px;
-  background-color: #f2f2f2; /* Light gray background for the footer */
+  background-color: #f2f2f2;
 }
 
 footer small {
   display: inline-block;
   margin-right: 10px;
-}
-
-footer img {
-  vertical-align: middle; /* Aligns the logo image vertically */
 }
