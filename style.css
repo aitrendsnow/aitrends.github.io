@@ -5,7 +5,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
-  background-color: white;
+  background-color: white; /* Set background color explicitly */
+  color: #333; /* Set default text color */ 
 }
 
 main { /* Wrap your main content within a <main> tag */
@@ -18,17 +19,20 @@ main { /* Wrap your main content within a <main> tag */
 h1 {
   text-align: center;
   margin-top: 50px;
+  color: #333; /* Set heading color */
 }
 
 p {
   text-align: center;
+  color: #333; /* Set paragraph color */
 }
 
 footer {
   margin-top: auto; 
-  background-color: #f2f2f2;
+  background-color: #f2f2f2; 
   padding: 10px;
   text-align: center; 
+  color: #333; /* Set footer text color */
 }
 
 footer small {
