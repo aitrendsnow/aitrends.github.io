@@ -4,8 +4,7 @@ body {
   padding: 0;
   font-family: sans-serif;
   display: flex;
-  flex-direction: column;
-  min-height: 100vh; 
+  flex-direction: column; 
 }
 
 h1 {
@@ -15,15 +14,17 @@ h1 {
 
 p {
   text-align: center;
-  margin-bottom: auto; /* Push content up */
+  flex-grow: 1; /* Allow the content to grow to fill the remaining space */
 }
 
 footer {
-  position: absolute; /* Make the footer absolutely positioned */
-  bottom: 0; /* Position it at the bottom of the viewport */
-  right: 0; /* Position it to the right */
-  padding: 10px; 
+  position: fixed; 
+  bottom: 0; 
+  left: 0; 
+  width: 100%; /* Make the footer span the full width of the viewport */
   background-color: #f2f2f2; 
+  padding: 10px;
+  text-align: right; 
 }
 
 footer small {
