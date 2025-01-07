@@ -4,19 +4,20 @@ body {
   min-height: 100vh; 
   margin: 0;
   padding: 0;
-   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
   background-color: white;
 }
 
 main { /* Wrap your main content within a <main> tag */
   flex-grow: 1; /* Allow the main content to grow and fill the space */
-  display: flex; /* Center content within the main section */
+  display: flex; 
   justify-content: center;
   align-items: center; 
 }
 
 h1 {
   text-align: center;
+  margin-top: 50px;
 }
 
 p {
@@ -27,7 +28,7 @@ footer {
   margin-top: auto; 
   background-color: #f2f2f2;
   padding: 10px;
-  text-align: center; /* Center the footer content */
+  text-align: center; 
 }
 
 footer small {
