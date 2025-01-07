@@ -10,11 +10,13 @@ body {
 
 main { /* Wrap your main content within a <main> tag */
   flex-grow: 1; /* Allow the main content to grow and fill the space */
+  display: flex; /* Center content within the main section */
+  justify-content: center;
+  align-items: center; 
 }
 
 h1 {
   text-align: center;
-  margin-top: 50px;
 }
 
 p {
@@ -22,9 +24,10 @@ p {
 }
 
 footer {
-  margin-top: auto; /* This is the key! */
+  margin-top: auto; 
   background-color: #f2f2f2;
   padding: 10px;
+  text-align: center; /* Center the footer content */
 }
 
 footer small {
