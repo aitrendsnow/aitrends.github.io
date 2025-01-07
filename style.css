@@ -1,10 +1,11 @@
 body {
-  background-color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the body takes up the full viewport height */
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  display: flex;
-  flex-direction: column; 
+  background-color: white;
 }
 
 h1 {
@@ -14,17 +15,15 @@ h1 {
 
 p {
   text-align: center;
-  flex-grow: 1; /* Allow the content to grow to fill the remaining space */
+  flex-grow: 1; /* Allow content to grow and push footer down */
 }
 
 footer {
-  position: fixed; 
-  bottom: 0; 
-  left: 0; 
-  width: 100%; /* Make the footer span the full width of the viewport */
-  background-color: #f2f2f2; 
-  padding: 10px;
-  text-align: right; 
+  position: absolute; /* Use absolute positioning for better control */
+  bottom: 0;
+  right: 0; 
+  padding: 10px; 
+  background-color: #f2f2f2;
 }
 
 footer small {
