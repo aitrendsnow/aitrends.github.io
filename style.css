@@ -19,7 +19,7 @@ main {
 }
 
 h1, h2, h3 {
-  text-align: center;
+  text-align: left;
   margin-bottom: 15px;
   font-weight: 500; /* Slightly bolder font weight */
 }
