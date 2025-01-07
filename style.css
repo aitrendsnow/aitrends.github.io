@@ -10,9 +10,14 @@ body {
   line-height: 1.5;
 }
 
-
 .centered-text {
   text-align: center;
+}
+
+.container {
+  width: 90%; /* Adjust container width as needed */
+  max-width: 600px; /* Set a maximum width for better readability */
+  margin: 0 auto; /* Center the container */
 }
 
 .product-review-box {
@@ -20,12 +25,6 @@ body {
   padding: 20px; 
   margin: 20px; 
   border-radius: 10px; 
-}
-.product-review-box p {
-  font-size: 1.2em; /* Increase font size for all elements within the paragraph */
-  text-align: left;
-  margin-bottom: 10px;
-  line-height: 1.5;
 }
 
 h2, h3 {
@@ -63,10 +62,18 @@ footer small {
   margin-right: 10px;
 }
 
+/* Style for star rating */
 .product-review-box p:last-of-type {
   font-size: 1.2em;
 }
 
-.product-review-box p:last-of-type span { 
-  color: gold; 
+/* Media Query for Mobile and Desktop Views */
+@media (min-width: 768px) { 
+  #mobile-view {
+    display: none; 
+  }
+
+  #desktop-view {
+    display: block; 
+  }
 }
