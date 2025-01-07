@@ -65,6 +65,9 @@ footer small {
 
 /* Style for star rating */
 .product-review-box p:last-of-type {
-  font-size: 1.2em; /* Increase font size */
-  color: gold; /* Set star color to gold */
+  font-size: 1.2em;
+}
+
+.product-review-box p:last-of-type span { 
+  color: gold; /* Only color the stars */
 }
