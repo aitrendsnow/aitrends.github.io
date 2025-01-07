@@ -62,3 +62,9 @@ footer small {
   display: inline-block;
   margin-right: 10px;
 }
+
+/* Style for star rating */
+.product-review-box p:last-of-type {
+  font-size: 1.2em; /* Increase font size */
+  color: gold; /* Set star color to gold */
+}
