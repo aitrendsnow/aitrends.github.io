@@ -3,9 +3,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  display: flex; /* Use flexbox for easier layout */
-  flex-direction: column; /* Set the main axis to vertical */
-  min-height: 100vh; /* Make the body take up the full viewport height */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
 }
 
 h1 {
@@ -15,15 +15,15 @@ h1 {
 
 p {
   text-align: center;
-  margin-bottom: auto; /* Add margin-bottom: auto to push content up */
+  margin-bottom: auto; /* Push content up */
 }
 
 footer {
-  display: flex; /* Use flexbox for footer layout */
-  justify-content: flex-end; /* Align content to the right */
-  align-items: flex-end; /* Align content to the bottom */
-  padding: 10px;
-  background-color: #f2f2f2;
+  position: absolute; /* Make the footer absolutely positioned */
+  bottom: 0; /* Position it at the bottom of the viewport */
+  right: 0; /* Position it to the right */
+  padding: 10px; 
+  background-color: #f2f2f2; 
 }
 
 footer small {
