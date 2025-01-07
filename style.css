@@ -21,6 +21,12 @@ body {
   margin: 20px; 
   border-radius: 10px; 
 }
+.product-review-box p {
+  font-size: 1.2em; /* Increase font size for all elements within the paragraph */
+  text-align: left;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
 
 h2, h3 {
   text-align: left; 
