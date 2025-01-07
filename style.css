@@ -47,13 +47,23 @@ footer small {
   border: 1px solid #f2f2f2; 
   padding: 20px; 
   margin: 20px; 
-  border-radius: 10px; /* Increased border radius */
+  border-radius: 10px; 
 }
 
-p {
-  text-align: left; 
+.product-review-box h2 {
+  text-align: center;
 }
 
-h3 {
-  text-align: left; 
+.product-review-box h3 {
+  text-align: left;
+  margin-top: 15px; /* Add some space above each heading */
+}
+
+.product-review-box p {
+  text-align: left;
+  margin-bottom: 10px; /* Add some space below each paragraph */
+}
+
+.product-review-box ul {
+  margin-left: 20px; /* Indent bullet lists */
 }
